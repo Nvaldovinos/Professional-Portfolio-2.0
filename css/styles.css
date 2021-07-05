@@ -25,7 +25,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #1D809F;
-  --bs-secondary: #ecb807;
+  --bs-secondary: #a5a299;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ecb807;
@@ -56,9 +56,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #b54e586e;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(37, 31, 31, 0);
 }
 
 hr {
@@ -94,7 +94,7 @@ h2, .h2 {
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 }
 
@@ -2963,8 +2963,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1D809F;
-  border-color: #1D809F;
+  background-color: #c06c84;
+  border-color: #6c5b7b;
 }
 .btn-primary:hover {
   color: #fff;
@@ -7354,7 +7354,7 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #695107 !important;
 }
 
 .text-success {
@@ -7406,7 +7406,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #c06c84 !important;
 }
 
 .bg-secondary {
@@ -7430,7 +7430,7 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #dc35456e  !important;
 }
 
 .bg-dark {
@@ -10903,7 +10903,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #c06c84;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10985,7 +10985,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, #6c5b7b 0%, #6c5b7b 100%), url("../assets/img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11040,7 +11040,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, #dc354500 0%, #f8b195 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
